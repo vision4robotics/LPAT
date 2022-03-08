@@ -11,7 +11,7 @@ This figure shows the workflow of our tracker.
 
 ## Demo
 
-- 📹 Demo of qualitative evaluations and real-world tests on [Youtube] demonstrates the practicality of SiamPSA.
+- 📹 Demo of qualitative evaluations and real-world tests on [Youtube] demonstrates the practicality of LPAT.
 
 ## About Code
 ### 1. Environment setup
