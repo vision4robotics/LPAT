@@ -1,4 +1,4 @@
-# [LPAT]: Local Perception-Aware Transformer for Aerial Tracking
+# LPAT: Local Perception-Aware Transformer for Aerial Tracking
 
 ### Changhong Fu, Weiyu Peng, Sihang Li, Junjie Ye, and Ziang Cao
 
