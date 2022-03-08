@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ```
 
 ## 2. Test
-Download pretrained model: [general_model](https://pan.baidu.com/s/19rXCK1Qhm8axi9DdrCBwdA)(code:o91m)  and put it into `tools/snapshot` directory.
+Download pretrained model: general_model from [BaiduNetdisk](https://pan.baidu.com/s/19rXCK1Qhm8axi9DdrCBwdA)(code:o91m) or [GoogleDriver](https://drive.google.com/file/d/1D0ot9i72NzdX_d1U9lhyj3gS76F10KVA/view?usp=sharing), and put it into `tools/snapshot` directory.
 
 Download testing datasets and put them into `test_dataset` directory. If you want to test the tracker on a new dataset, please refer to [pysot-toolkit](https://github.com/StrangerZhang/pysot-toolkit) to set test_dataset.
 
