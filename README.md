@@ -1,5 +1,6 @@
-## Local Perception-Aware Transformer for Aerial Tracking
-Changhong Fu, Weiyu Peng, Sihang Li, Junjie Ye, and Ziang Cao
+# Local Perception-Aware Transformer for Aerial Tracking
+
+### Changhong Fu, Weiyu Peng, Sihang Li, Junjie Ye, and Ziang Cao
 
 ## Abstract
 Visual object tracking has been utilized in numerous aerial platforms, where is facing the challenges of more extremely complex conditions. To address the inefficient long-range modeling of traditional networks with fully convolutional neural networks, Transformer is introduced into the state-of-the-art trackers’ frameworks. Benefiting from full receptive field of global attention, these Transformer trackers can efficiently model long-range information. However, the structure of vanilla Transformer is lack of enough inductive bias and directly adopting global attention will lead to overfocusing on global information which does harm to modeling local details. This work proposes a local perception-aware Transformer for aerial tracking, i.e., LPAT. Specifically, this novel tracker is constructed with modified local-recognition attention and local element correction network to process information via local-modeling to global-search mechanism. To grab local details and strengthen the local inductive bias of Transformer structure. The Transformer encoder with localrecognition attention is constructed to fuse local features for accurate feature modeling and the local element correction network can strengthen the capability of both Transformer encoder and decoder to distinguish local details. The proposed method achieves competitive accuracy and robustness in several benchmarks with 316 sequences in total. The proposed tracker’s practicability and efficiency have been validated by the realworld tests on a typical aerial platform.
@@ -10,7 +11,7 @@ This figure shows the workflow of our tracker.
 
 ## Demo
 
-- 📹 Demo of qualitative evaluations and real-world tests on [Youtube](https://youtu.be/bKrdbQ-Utk4) demonstrates the practicality of LPAT.
+- 📹 Some qualitative evaluations and real-world tests are reported in the demo, which demonstrates the practicality of [LPAT-tracker](https://youtu.be/bKrdbQ-Utk4).
 [<img src="image/2.png" width="800" alt="main" />](https://youtu.be/bKrdbQ-Utk4)
 
 ## About Code
@@ -66,5 +67,4 @@ python eval.py 	                          \
 ```
 
 ### 5. Acknowledgement
-The code is implemented based on [pysot](https://github.com/STVIR/pysot). We would like to express our sincere thanks to the contributors.
->>>>>>> master
+The code is implemented based on [pysot](https://github.com/STVIR/pysot) and [HiFT](https://github.com/vision4robotics/HiFT). We would like to express our sincere thanks to the contributors.
