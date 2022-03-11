@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LPAT
 Local Perception-Aware Transformer for Aerial Tracking
 
@@ -13,7 +12,7 @@ This figure shows the workflow of our tracker.
 
 ## Demo
 
-- 📹 Demo of qualitative evaluations and real-world tests on [Youtube] demonstrates the practicality of LPAT.
+- 📹 Demo of qualitative evaluations and real-world tests on [Youtube](https://youtu.be/bKrdbQ-Utk4) demonstrates the practicality of LPAT.
 
 ## About Code
 ### 1. Environment setup
