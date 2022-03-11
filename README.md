@@ -13,7 +13,7 @@ This figure shows the workflow of our tracker.
 
 - 📹 Some qualitative evaluations and real-world tests are reported in the demo, which demonstrates the practicality of [LPAT-tracker](https://youtu.be/bKrdbQ-Utk4).
 
-[<img src="image/2.png" width="800" alt="main" />](https://youtu.be/bKrdbQ-Utk4)
+[<img src="image/demo.png" width="800" alt="main" />](https://youtu.be/bKrdbQ-Utk4)
 
 ## About Code
 ### 1. Environment setup
