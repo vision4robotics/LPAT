@@ -58,7 +58,7 @@ python train.py
 ```
 
 ### 4. Evaluation
-We provide the tracking [results](https://pan.baidu.com/s/1EWOSHNcOldJBCCmwY-mvVA) (code: s3p1) of UAV123@10fps, UAV20L, and VisDrone2018-SOT-test. If you want to evaluate the tracker, please put those results into  `results` directory.
+We provide the tracking [results](https://pan.baidu.com/s/1d2D2Uduvx99F_iNYccMjWQ) (code: 0311) of UAV123@10fps, UAV123, and DTB70. If you want to evaluate the tracker, please put those results into  `results` directory.
 ```
 python eval.py 	                          \
 	--tracker_path ./results          \ # result path
