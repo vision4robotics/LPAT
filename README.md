@@ -67,4 +67,4 @@ python eval.py 	                          \
 ```
 
 ### 5. Acknowledgement
-The code is implemented based on [pysot](https://github.com/STVIR/pysot) (Bo Li *et al.*) and the tracking procedure is similar to [HiFT](https://github.com/vision4robotics/HiFT) (Ziang Cao *et al.*). We would like to express our sincere thanks to the contributors.
+The code is implemented based on [pysot](https://github.com/STVIR/pysot) (Bo Li *et al.*) and the tracking procedure is borrowed from [HiFT](https://github.com/vision4robotics/HiFT) (Ziang Cao *et al.*). We would like to express our sincere thanks to the contributors.
