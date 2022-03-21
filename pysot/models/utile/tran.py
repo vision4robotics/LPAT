@@ -12,10 +12,7 @@ from torch.nn import Dropout
 
 
 class correction_net(nn.Module):
-    """
-    Inception-C block for Inception-ResNet-v1\
-    and Inception-ResNet-v2 net
-    """
+
 
     def __init__(self, in_channels: int=192, n1_linear: int=512, b1:int=18, b2_n1:int=24, b2_n1x3:int=24, b2_n3x1:int=24):
         super(correction_net, self).__init__()
