@@ -1,1 +1,0 @@
-encoder:2X cross local attention 1Xdecoder version2
