@@ -10,14 +10,6 @@ import os
 import cv2
 import torch
 import numpy as np
-
-from pysot.core.config import cfg
-from pysot.models.model_builder import ModelBuilder
-from pysot.tracker.siamapn_tracker import SiamAPNTracker
-from pysot.utils.bbox import get_axis_aligned_bbox
-from pysot.utils.model_load import load_pretrain
-from toolkit.datasets import DatasetFactory
-
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
