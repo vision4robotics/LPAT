@@ -7,9 +7,9 @@ import torch.nn.functional as F
 from pysot.core.config import cfg
 from pysot.tracker.base_tracker import SiameseTracker
 
-class SiamAPNTracker(SiameseTracker):
+class LPATTracker(SiameseTracker):
     def __init__(self, model):
-        super(SiamAPNTracker, self).__init__()
+        super(LPATTracker, self).__init__()
         #self.score_size = (cfg.TRACK.INSTANCE_SIZE - cfg.TRACK.EXEMPLAR_SIZE) // \
          #   cfg.ANCHOR.STRIDE + 1 
         self.score_size=cfg.TRAIN.OUTPUT_SIZE
