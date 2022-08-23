@@ -31,7 +31,7 @@ import numpy as np
 
 from pysot.core.config import cfg
 from pysot.models.model_builder import ModelBuilder
-from pysot.tracker.hift_tracker import HiFTTracker
+from pysot.tracker.lpat_tracker import LPATTracker
 from pysot.utils.bbox import get_axis_aligned_bbox
 from pysot.utils.model_load import load_pretrain
 from toolkit.datasets import DatasetFactory
@@ -62,7 +62,7 @@ def main():
 
     model = load_pretrain(model, args.snapshot).cuda().eval()
 
-    tracker = HiFTTracker(model)
+    tracker = LPATTracker(model)
 
     dataset = DatasetFactory.create_dataset(name=args.dataset,
                                             dataset_root=dataset_root,
